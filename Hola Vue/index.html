@@ -14,14 +14,15 @@
         {{text}} quiero {{number}} millones de pesos
     </div>
     <script>
-        Vue.createApp({
+        const vm = Vue.createApp({
             data() {
                 return {
                     text: "Hola mundo",
                     number: 45
                 };
             }
-        }).mount("#app")
+        }).mount("#app");
+        console.log(vm);
     </script>
 </body>
 
