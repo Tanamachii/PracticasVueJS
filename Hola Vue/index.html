@@ -11,14 +11,13 @@
 <body>
     <script src="https://unpkg.com/vue@next"></script>
     <div id="app">
-        {{text}} quiero {{number}} millones de pesos
+        {{text}}
     </div>
     <script>
         const vm = Vue.createApp({
             data() {
                 return {
-                    text: "Hola mundo",
-                    number: 45
+                    text: "Hola mundo"
                 };
             }
         }).mount("#app");
